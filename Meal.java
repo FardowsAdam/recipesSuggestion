@@ -33,6 +33,7 @@ public class Meal {
 
 
     }
+    //method to count the matching ingredients
 
     private Map<String, Integer> getStringIntegerMap(List<String> availableIngredients) {
         Map<String,Integer> matchingRecipes=new HashMap<>();
